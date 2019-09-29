@@ -4,18 +4,11 @@
   "description": "Landing page for natours",
   "main": "index.js",
   "scripts": {
-    "start": "gulp"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "author": "Andrew",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^9.6.1",
-    "browser-sync": "^2.26.7",
-    "cssnano": "^4.1.10",
-    "gulp": "^4.0.2",
-    "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5"
-  },
-  "dependencies": {}
+    "node-sass": "^4.5.3"
+  }
 }
