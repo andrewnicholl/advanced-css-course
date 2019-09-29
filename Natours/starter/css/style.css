@@ -166,7 +166,7 @@ body {
 
 .row {
   max-width: 114rem;
-  background-color: gray;
+  background-color: blue;
   margin: 0 auto;
   margin-bottom: 8rem; }
   .row:not(:last-child) {
